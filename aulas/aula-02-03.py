@@ -35,6 +35,12 @@
 
 
 # EXERCÍCIO 5
+# num = int(input("Digite um número: "))
+#
+# print(f"O número {num} é maior que 0? Resposta: {num > 0}")
+
+
+# EXERCÍCIO 6
 num = int(input("Digite um número: "))
 
-print(f"O número {num} é maior que 0? Resposta: {num > 0}")
+print(f"O número {num} é multíplo de 5? Resposta: {num % 5 == 0}")
