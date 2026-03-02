@@ -43,4 +43,4 @@
 # EXERCÍCIO 6
 num = int(input("Digite um número: "))
 
-print(f"O número {num} é multíplo de 5? Resposta: {num % 5 == 0}")
+print(f"O número {num} não é multíplo de 5? Resposta: {num % 5 != 0}")
