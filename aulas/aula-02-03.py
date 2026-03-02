@@ -7,6 +7,7 @@
 #
 # print(f"\nA média dos números {x}, {y} e {z} é igual a {average:.2f}")
 
+
 # EXERCÍCIO 2
 # value = float(input("Digite o valor da prestação: "))
 #
@@ -14,11 +15,20 @@
 #
 # print(f"\nFoi aplicada à prestação de R$ {value:.2f} um juros de 10%, sendo assim, a nova prestação é R$ {fee:.2f}")
 
+
 # EXERCÍCIO 3
-n1 = float(input("Digite um número: "))
-n2 = float(input("Digite um outro número: "))
-n3 = float(input("Digite um terceiro número: "))
+# n1 = float(input("Digite um número: "))
+# n2 = float(input("Digite um outro número: "))
+# n3 = float(input("Digite um terceiro número: "))
+#
+# average = ((n1 * 2) + (n2 * 3) + (n3 * 5)) / 10
+#
+# print(f"\nA média ponderada dos valores {n1}, {n2} e {n3} é igual a {average:.1f}")
 
-average = ((n1 * 2) + (n2 * 3) + (n3 * 5)) / 10
 
-print(f"\nA média ponderada dos valores {n1}, {n2} e {n3} é igual a {average:.1f}")
+# EXERCÍCIO 4
+num = int(input("Digite um número: "))
+
+num += 1
+
+print(f"\nO valor de num após o incremento: {num}")
