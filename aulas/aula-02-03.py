@@ -27,8 +27,14 @@
 
 
 # EXERCÍCIO 4
+# num = int(input("Digite um número: "))
+#
+# num += 1
+#
+# print(f"\nO valor de num após o incremento: {num}")
+
+
+# EXERCÍCIO 5
 num = int(input("Digite um número: "))
 
-num += 1
-
-print(f"\nO valor de num após o incremento: {num}")
+print(f"O número {num} é maior que 0? Resposta: {num > 0}")
