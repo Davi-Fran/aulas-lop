@@ -8,7 +8,10 @@ is_data_valida = True
 print()
 
 if ano > 1900 and ano < 2026:
-    if mes == 1 or mes == 3 or mes == 5 or mes == 7 or mes == 8 or mes == 10 or mes == 12:
+    if (mes == 1 or mes == 3 or 
+        mes == 5 or mes == 7 or
+        mes == 8 or mes == 10 or mes == 12):
+        
         if dia > 31:
             is_data_valida = False
     elif mes == 2:
@@ -26,6 +29,6 @@ else:
     
     
 if is_data_valida:
-    print(f'A data digitada {dia:02d}/{mes:02d}/{ano:02d}')
+    print(f'A data digitada foi {dia:02d}/{mes:02d}/{ano:02d}')
 else:
     print('A data digitada é inválida!')
