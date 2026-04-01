@@ -18,6 +18,6 @@ if not y1 > y2 and not y3 > y4:
     print('Valores inválidos! O Y superior esquerdo deve ser maior que o Y inferior direito!')
 else:
     if x2 < x3 or x1 > x4 or y2 > y3 or y1 < y4:
-        print('Os triângulos não se sobrepõem!')
+        print('Os retângulos não se sobrepõem!')
     else:
-        print('Os triângulos se sobrepõem!')
+        print('Os retângulos se sobrepõem!')
